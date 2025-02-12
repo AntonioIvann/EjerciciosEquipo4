@@ -1,0 +1,21 @@
+import java.util.Scanner;
+
+public class Resta {
+    public static int restar(int a, int b) {
+        return a - b;
+    }
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Ingrese el primer número: ");
+        int num1 = scanner.nextInt();
+        System.out.print("Ingrese el segundo número: ");
+        int num2 = scanner.nextInt();
+        System.out.println("Resultado de la resta: " + restar(num1, num2));
+        scanner.close();
+    }
+}
+
+
+//2. pedir 2 números y realizar la resta por función.
+
